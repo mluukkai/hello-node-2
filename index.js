@@ -20,7 +20,7 @@ let notes = [
 ]
 
 app.get('/', (req, res) => {
-  res.send('<h1>Hello World!</h1><p>PERKELE 2</p>')
+  res.send('<h1>Hello World!</h1><p>works?</p>')
 })
 
 app.get('/api/notes', (req, res) => {
